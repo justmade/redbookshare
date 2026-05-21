@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/generate-copy.js": {
+      "maxDuration": 10
+    }
+  }
+}

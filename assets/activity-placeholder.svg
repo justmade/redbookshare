@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">活动图片占位</title>
+  <desc id="desc">用于替换为正式活动图片的占位图</desc>
+  <rect width="1200" height="1500" fill="#efe6da"/>
+  <rect x="90" y="90" width="1020" height="1320" rx="28" fill="#ffffff"/>
+  <circle cx="600" cy="508" r="188" fill="#d7263d" opacity="0.92"/>
+  <path d="M430 820h340M430 900h260M430 980h306" stroke="#1e1d1b" stroke-width="36" stroke-linecap="round"/>
+  <text x="600" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="86" font-weight="700" fill="#ffffff">活动图片</text>
+  <text x="600" y="1165" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" fill="#68645f">替换 assets 中的正式素材</text>
+</svg>

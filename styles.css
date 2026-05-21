@@ -1,0 +1,164 @@
+:root {
+  color-scheme: light;
+  --bg: #f7f4ef;
+  --surface: #ffffff;
+  --text: #1e1d1b;
+  --muted: #68645f;
+  --line: #e7dfd5;
+  --accent: #d7263d;
+  --accent-strong: #b81f32;
+  --success: #18794e;
+  --warning: #9a6700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.page-shell {
+  width: min(100%, 560px);
+  margin: 0 auto;
+  padding-bottom: 112px;
+}
+
+.hero {
+  width: 100%;
+  background: #eee7dc;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.content {
+  padding: 22px 18px 8px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0 0 18px;
+  font-size: 28px;
+  line-height: 1.18;
+  letter-spacing: 0;
+}
+
+.copy-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 16px;
+}
+
+.copy-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.status {
+  flex: 0 0 auto;
+  color: var(--warning);
+}
+
+.status.ready {
+  color: var(--success);
+}
+
+.status.error {
+  color: var(--accent);
+}
+
+.copy-text {
+  min-height: 116px;
+  margin: 0;
+  color: var(--text);
+  font-size: 17px;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.message {
+  min-height: 22px;
+  margin: 14px 2px 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.message.error {
+  color: var(--accent);
+}
+
+.action-bar {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  padding: 12px 18px calc(14px + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+}
+
+.primary-button {
+  width: min(100%, 524px);
+  min-height: 52px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.primary-button:active {
+  background: var(--accent-strong);
+}
+
+.primary-button:disabled {
+  background: #c9c2bb;
+}
+
+.fallback-link {
+  color: var(--muted);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+@media (min-width: 720px) {
+  body {
+    padding: 24px 0;
+  }
+
+  .page-shell {
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--surface);
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "nodeVersion": "22.11",
+  "function": {
+    "includeFiles": [
+      "activity.config.json"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "redbookshare",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "check:env": "node scripts/check-env.js",
+    "check:copy:raw": "node scripts/check-copy-raw.js",
+    "check:minimax": "node scripts/check-minimax.js",
+    "dev": "node scripts/dev-server.js",
+    "start": "node scripts/dev-server.js"
+  }
+}

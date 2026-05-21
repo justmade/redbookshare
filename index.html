@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <title>小红书活动分享</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero" aria-label="活动图片">
+        <img id="heroImage" class="hero-image" src="/assets/activity-placeholder.svg" alt="活动分享图片">
+      </section>
+
+      <section class="content" aria-labelledby="activityTitle">
+        <p class="eyebrow">扫码参与</p>
+        <h1 id="activityTitle">小红书活动分享</h1>
+        <div class="copy-panel">
+          <div class="copy-panel-header">
+            <span>分享文案</span>
+            <span id="copyStatus" class="status">生成中</span>
+          </div>
+          <p id="copyText" class="copy-text">正在为你生成专属分享文案...</p>
+        </div>
+        <p id="message" class="message" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="action-bar">
+      <button id="shareButton" class="primary-button" type="button" disabled>
+        <span id="buttonText">复制文案并打开小红书</span>
+      </button>
+      <a id="fallbackLink" class="fallback-link" href="https://www.xiaohongshu.com/" rel="noreferrer">无法自动打开时，点这里继续</a>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

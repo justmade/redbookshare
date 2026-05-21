@@ -1,0 +1,29 @@
+{
+  "activityName": "小红书活动分享",
+  "heroImage": "/assets/activity-placeholder.svg",
+  "redbookUrl": "https://www.xiaohongshu.com/",
+  "buttonText": "复制文案并打开小红书",
+  "fallbackCopy": "我刚参加了一个很值得分享的活动，内容很实用，体验也很不错。感兴趣的话可以一起看看。",
+  "copyRules": {
+    "targetAudience": "准备在小红书分享活动体验的用户",
+    "tone": "自然、真实、有生活感，像普通用户主动分享，不要像广告",
+    "length": "80 到 140 个中文字符",
+    "mustInclude": [
+      "活动体验",
+      "值得分享"
+    ],
+    "avoid": [
+      "夸张承诺",
+      "硬广语气",
+      "虚假价格或优惠",
+      "联系方式"
+    ],
+    "angles": [
+      "真实体验感",
+      "适合朋友一起参与",
+      "活动内容有记忆点",
+      "轻松种草",
+      "个人收获"
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "activityName": "小红书活动分享",
   "heroImage": "/assets/activity-placeholder.svg",
-  "redbookUrl": "https://www.xiaohongshu.com/",
+  "redbookUrl": "http://xhslink.com/o/9dwvx7xCKFE",
   "buttonText": "复制文案并打开小红书",
   "fallbackCopy": "我刚参加了一个很值得分享的活动，内容很实用，体验也很不错。感兴趣的话可以一起看看。",
   "copyRules": {

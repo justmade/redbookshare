@@ -55,7 +55,7 @@ MINIMAX_MODEL=MiniMax-M2.7
 
 5. 部署完成后访问 EdgeOne Pages 提供的 HTTPS 域名，确认页面能加载并请求 `/api/generate-copy`。
 
-EdgeOne Pages 会把 `cloud-functions/api/generate-copy.js` 映射为线上接口 `/api/generate-copy`。
+EdgeOne Pages 会把 `cloud-functions/api/generate-copy.js` 映射为线上接口 `/api/generate-copy`。EdgeOne 函数通过 `context.env` 读取环境变量，所以 `MINIMAX_API_KEY` 必须配置在 EdgeOne Pages 项目的运行环境变量中，不能只放在本地 `.env`。
 
 ## 其他部署
 
